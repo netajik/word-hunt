@@ -2,6 +2,7 @@ import { Container } from '@material-ui/core';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   const [word, setWord] = useState([]);
@@ -32,7 +33,7 @@ function App() {
         maxWidth="md"
         style={{ display: "flex", flexDirection: "column", height: "100vh"}}
       >
-        Dictionary
+        <Header />
       </Container>
     </div>
   );
