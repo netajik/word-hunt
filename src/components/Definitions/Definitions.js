@@ -1,3 +1,6 @@
+import React from "react";
+import "./Definitions.css";
+
 const Definitions = ({ meanings, word, category }) => {
   return (
     <div className="meanings">
